@@ -1,0 +1,22 @@
+.navbar-brand{
+    margin-left: 3rem;
+}
+.navbar-nav{
+    margin-left: 10rem;
+    font-weight: normal;
+}
+.navbar{
+    box-shadow: none;
+}
+.navbar li{
+    padding: 0 .5rem;
+    border-right: 1px solid white;
+}
+.navbar li:nth-last-child(1){
+    border: none;
+    padding-right: 1rem;
+}
+.navbar li a{
+    padding: 0;
+    line-height: 1;
+}

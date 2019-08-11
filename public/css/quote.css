@@ -1,0 +1,52 @@
+/* .quote{
+    background-image: url('../img/work-sample.jpg');
+    width: 100vw;
+    height: 40vh;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+.quote-section{
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+} */
+
+section.quote-section{
+    text-align : center;
+    padding-top: 8rem;
+    padding-bottom: 15rem;
+    /* background: #424250; */
+    background: url('../img/colors.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 10rem;
+    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 87%, 0 100%);
+    clip-path: polygon(0 0, 100% 10%, 100% 87%, 0 100%);
+    /* height: 100vh; */
+}
+section.quote-section h3{
+    width: 35%;
+    margin: auto;
+    margin-top: 5rem;
+    font-size: 2rem;
+    color: white;
+    /* color : #424242; */
+    font-weight: 500;
+}
+section.quote-section p{
+    width: 45%;
+    margin: auto;
+    color: white;
+    /* color: #4f4f4f; */
+    font-size: 1.2rem;
+}
+.hrtag{
+    width: 10%;
+    margin: auto;
+    border: .5px solid #6769e4;
+    margin: 1.8rem auto;
+}
+#projectImg{
+    margin-top: 3.5rem;
+    margin-bottom: 5rem;
+}

@@ -1,16 +1,18 @@
 @import 'navbar.css';
+@import 'quote.css';
+@import 'prices.css';
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Lato', sans-serif;
-
 }
 body{
     font-size: 1rem;
     line-height: 1.5rem;
     overflow-x: hidden;
+    width: 100vw;
 }
 .container{
     max-width: 960px;
@@ -80,8 +82,8 @@ body{
     background: rgb(37, 143, 241);
     border: none;
     color: white;
-    font-size: 1rem;
-    padding: .7rem 2.5rem;
+    font-size: 1.2rem;
+    padding: 1rem 3.5rem;
     font-weight: 700;
     margin-top: 1rem;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);

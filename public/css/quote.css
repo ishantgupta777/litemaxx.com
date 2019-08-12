@@ -1,16 +1,3 @@
-/* .quote{
-    background-image: url('../img/work-sample.jpg');
-    width: 100vw;
-    height: 40vh;
-    background-attachment: fixed;
-    object-fit: cover;
-}
-.quote-section{
-    width: 100vw;
-    height: 80vh;
-    overflow: hidden;
-} */
-
 section.quote-section{
     text-align : center;
     padding-top: 8rem;
@@ -19,9 +6,9 @@ section.quote-section{
     background: url('../img/colors.jpg');
     background-size: cover;
     background-attachment: fixed;
-    margin-top: 10rem;
-    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 87%, 0 100%);
-    clip-path: polygon(0 0, 100% 10%, 100% 87%, 0 100%);
+    margin-top: 7rem;
+    -webkit-clip-path: polygon(0 0, 100% 11%, 100% 87%, 0 100%);
+    clip-path: polygon(0 0, 100% 11%, 100% 87%, 0 100%);
     /* height: 100vh; */
 }
 section.quote-section h3{

@@ -14,11 +14,15 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
 
     <!-- ---------------google fonts------------------------ -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chewy|Lato:300,400,700&display=swap" rel="stylesheet">
 
     <!-- -------------------typed.js-------------------- -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 
+    <!-- ------------------------slidercss------------------ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+
+    <!-- ----------------------main.css------------------------- -->
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -29,7 +33,7 @@
         <div class="overlay"></div>
         <div class="content">
             <div class="navbar">
-                    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+                    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
                             <a class="navbar-brand" href="#"><strong>liteMaxx</strong></a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,7 +71,7 @@
                 <h2>starting at $25</h2>
                 <div class="hr"></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fuga voluptates, magni voluptatem exercitationem quia est facilis doloribus laudantium omnis consequuntur. Temporibus nisi tempora dolor?</p>
-                <input type="button" value="let's boost your business">
+                <a href=""><input type="button" value="let's boost your business"></a>
             </div>
             <div id="typed-strings">
                 <p>design</p>
@@ -82,11 +86,167 @@
         <div class="hrtag"></div>
       <p><strong>Lorem, ipsum dolor sit amet</strong> consectetur adipisicing elit. Vel nemo, eos consequatur vitae, doloremque sit rem enim, doloribus obcaecati molestiae dolores dolore quasi temporibus laborum corrupti? Modi vero pariatur optio?</p>
       <img src="./img/work-sample.jpg" alt="" id="projectImg" class="img-fluid">
+      <a href=""><input type="button" value="Check Out For Portfolio"></a>
     </section>
 
+    <!-- Pricing -->
     <section class="prices">
+        <div class="container">
+            <div class="row">
+                <div class="col section__header-wrap">
+                    <h2 class="title__section title__h1 title_horizontal-line"><span class="reveal reveal_gray">Pricing.</span></h2>
+                    <div class="hrtag hrtag2"></div>
+                    <p class="section__subtitle">The photo leaves open moments, which immediately overlap with the pressure of time.</p>
+                </div>
+            </div>
+        </div>
 
+        <div class="pricing-grid swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Item -->
+                <div class="swiper-slide pricing-grid__item pricing-grid__item_one" style="background-image: url('img/priceback.jpg');background-size: cover;">
+                    <h4 class="title__h4">FREE</h4>
+                    <footer class="pricing-footer">
+                        <div class="price">$0</div>
+                        <a href="#price" class="btn-link btn-link_right">Explore</a>
+                    </footer>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Subdomain</div>
+                        <div class="pricing-options__included">.litemaxx.com</div>
+                    </div>
+                    
+                    <div class="pricing-options">
+                        <div class="pricing-options__included">Mobile Responsive</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__included">SSL Security</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Pages</div>
+                        <div class="pricing-options__included">3</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Visitors</div>
+                        <div class="pricing-options__included">100/day</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Support</div>
+                        <div class="pricing-options__included">Email</div>
+                    </div>
+                </div>
+                <!-- /Item -->
+
+                <!-- Item -->
+                <div class="swiper-slide pricing-grid__item pricing-grid__item_one" style="background-image: url('img/peter-livesey-WEME5LOrLpE-unsplash.jpg');filter: grayscale(100%);filter: url('./img/peter-livesey-WEME5LOrLpE-unsplash.jpg');">
+                  <h4 class="title__h4">BASIC</h4>
+                    <footer class="pricing-footer">
+                        <div class="price">$xxx</div>
+                        <a href="#price" class="btn-link btn-link_right">Explore</a>
+                    </footer>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Subdomain</div>
+                        <div class="pricing-options__included">.litemaxx.com</div>
+                    </div>
+                    
+                    <div class="pricing-options">
+                        <div class="pricing-options__included">Mobile Responsive</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__included">SSL Security</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Pages</div>
+                        <div class="pricing-options__included">3</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Visitors</div>
+                        <div class="pricing-options__included">100/day</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Support</div>
+                        <div class="pricing-options__included">Email</div>
+                    </div>
+                </div>
+                <!-- /Item -->
+
+                <!-- Item -->
+                <div class="swiper-slide pricing-grid__item pricing-grid__item_one" style="background-image: url('img/braden-collum-ttbCwN_mWic-unsplash (1).jpg')">
+                  <h4 class="title__h4">FREE</h4>
+                    <footer class="pricing-footer">
+                        <div class="price">$0</div>
+                        <a href="#price" class="btn-link btn-link_right">Explore</a>
+                    </footer>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Subdomain</div>
+                        <div class="pricing-options__included">.litemaxx.com</div>
+                    </div>
+                    
+                    <div class="pricing-options">
+                        <div class="pricing-options__included">Mobile Responsive</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__included">SSL Security</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Pages</div>
+                        <div class="pricing-options__included">3</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Visitors</div>
+                        <div class="pricing-options__included">100/day</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Support</div>
+                        <div class="pricing-options__included">Email</div>
+                    </div>
+                </div>
+                <!-- /Item -->
+
+                <!-- Item -->
+                <div class="swiper-slide pricing-grid__item pricing-grid__item_one" style="background-image: url('img/colors1.jpg')">
+                  <h4 class="title__h4">FREE</h4>
+                    <footer class="pricing-footer">
+                        <div class="price">$0</div>
+                        <a href="#price" class="btn-link btn-link_right">Explore</a>
+                    </footer>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Subdomain</div>
+                        <div class="pricing-options__included">.litemaxx.com</div>
+                    </div>
+                    
+                    <div class="pricing-options">
+                        <div class="pricing-options__included">Mobile Responsive</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__included">SSL Security</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Pages</div>
+                        <div class="pricing-options__included">3</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Visitors</div>
+                        <div class="pricing-options__included">100/day</div>
+                    </div>
+                    <div class="pricing-options">
+                        <div class="pricing-options__name">Support</div>
+                        <div class="pricing-options__included">Email</div>
+                    </div>
+                </div>
+                <!-- /Item -->
+            </div>
+
+            <!-- Control -->
+            <div class="swiper-control">
+                <div class="swiper-pagination"></div>
+                <!-- <button class="swiper-button-next">NEXT</button>
+                <button class="swiper-button-prev">PREV</button> -->
+                <div class="swiper-button-next">NEXT</div>
+                 <div class="swiper-button-prev">PREV</div>
+            </div>
+        </div>
     </section>
+
 </body>
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -96,6 +256,9 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>
+
+    <!-- ----------------swiper.js---------------------------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 
     <script src="./js/index.js"></script>
 </html>

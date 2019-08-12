@@ -5,9 +5,6 @@
     margin-left: 10rem;
     font-weight: normal;
 }
-.navbar{
-    box-shadow: none;
-}
 .navbar li{
     padding: 0 .5rem;
     border-right: 1px solid white;

@@ -13,6 +13,7 @@ body{
     line-height: 1.5rem;
     overflow-x: hidden;
     width: 100vw;
+    background: #070E17;
 }
 .container{
     max-width: 960px;
@@ -78,7 +79,7 @@ body{
     letter-spacing: 1.5px;
     font-family: sans-serif;
 }
-.main-text input{
+.main-text input, .quote-section input{
     background: rgb(37, 143, 241);
     border: none;
     color: white;
@@ -91,6 +92,6 @@ body{
     transition: 200ms ease-in-out;
     text-transform: capitalize;
 }
-.main-text input:hover{
+.main-text input:hover , .quote-section input:hover{
     background-color: rgb(17, 105, 187);
 }

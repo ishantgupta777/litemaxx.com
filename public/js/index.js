@@ -5,7 +5,7 @@ var typed = new Typed('.type', {
     typeSpeed : 50,
     backSpeed : 50,
     loop : true,
-    backDelay : 2000
+    backDelay : 1000
 });
 
 //--------------nav colour change------------------

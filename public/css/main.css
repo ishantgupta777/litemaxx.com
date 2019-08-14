@@ -2,6 +2,7 @@
 @import 'quote.css';
 @import 'prices.css';
 @import 'footer.css';
+@import 'howto.css';
 
 *{
     box-sizing: border-box;

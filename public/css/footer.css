@@ -4,7 +4,7 @@ footer.footer{
     margin-top: 5rem;
     padding-top: 10rem;
     padding-bottom: 10rem;
-    background:  rgba(7,0,255,1);
+    background:  #5328fe;
     -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 87%, 0 100%);
     clip-path: polygon(0 10%, 100% 0%, 100% 87%, 0 100%);
     overflow: hidden;

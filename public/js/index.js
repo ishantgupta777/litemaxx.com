@@ -64,3 +64,37 @@ var swiper = new Swiper('.pricing-grid', {
        }
    }
 });
+
+
+//----------------------FOOTER ANIMATION---------------------
+
+AOS.init({
+    easing : 'ease-in-out'
+});
+
+
+
+
+//--------------autofill contact form problem solved---------------------
+$('form').on('change',()=>{
+    if($('.name').val()==''){
+        $('#name').removeClass('inputClass')
+    }else{
+        $('#name').addClass('inputClass')
+    }
+    if($('.email').val()==''){
+        $('#email').removeClass('inputClass')
+    }else{
+        $('#email').addClass('inputClass')
+    }
+    if($('.phone').val()==''){
+        $('#phone').removeClass('inputClass')
+    }else{
+        $('#phone').addClass('inputClass')
+    }
+    if($('.message').val()==''){
+        $('#message').removeClass('inputClass')
+    }else{
+        $('#message').addClass('inputClass')
+    }
+})

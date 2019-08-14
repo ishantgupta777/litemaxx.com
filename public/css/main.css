@@ -1,6 +1,7 @@
 @import 'navbar.css';
 @import 'quote.css';
 @import 'prices.css';
+@import 'footer.css';
 
 *{
     box-sizing: border-box;

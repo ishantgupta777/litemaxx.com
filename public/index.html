@@ -14,10 +14,13 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
 
     <!-- ---------------google fonts------------------------ -->
-    <link href="https://fonts.googleapis.com/css?family=Chewy|Lato:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chewy|Lato:300,400,700|Nova+Square&display=swap" rel="stylesheet">
 
     <!-- -------------------typed.js-------------------- -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+    <!-- -----------------------------aos animation------------------------------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- ------------------------slidercss------------------ -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
@@ -247,6 +250,39 @@
         </div>
     </section>
 
+    <footer class="footer" data-aos="fade-up">
+        <div class="connect">
+            <h1>connect with us</h1>
+            <img src="./img/arrow-55-64.png" alt="">
+            <div class="hrtag hrtag4"></div>
+            <div class="social">
+                <a> <img src="./img/insta.png" alt=""> </a>
+                <a> <img src="./img/mail-64.png" alt=""> </a>
+                <a> <img src="./img/PNGIX.com_logo-whatsapp-png_494364.png" alt=""> </a>
+            </div>
+        </div>
+        <div class="contact">
+            <form action="">
+                <div>
+                        <input type="text" class="name" name="name" placeholder="">
+                        <label for="name" id="name" class="label">Your Name</label>
+                </div>
+                <div>
+                        <input type="email" class="email" name="email" required placeholder="">
+                        <label id="email" for="email">Email</label>
+                </div>
+                <div>
+                        <input type="text" class="phone" name="phone">
+                        <label id="phone" for="phone">Phone Number</label>
+                </div>
+                <div>
+                        <textarea name="message" class="message" required cols="30" rows="10" placeholder=""></textarea>
+                        <label id="message" for="message">Your Message</label>
+                </div>
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+    </footer>
 </body>
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -259,6 +295,9 @@
 
     <!-- ----------------swiper.js---------------------------- -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+
+    <!-- -----------------------aos animation------------------------------- -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="./js/index.js"></script>
 </html>

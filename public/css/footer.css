@@ -1,0 +1,99 @@
+footer.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    margin-top: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background:  rgba(7,0,255,1);
+    -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 87%, 0 100%);
+    clip-path: polygon(0 10%, 100% 0%, 100% 87%, 0 100%);
+}
+.connect{
+    margin-left: 10rem;
+}
+.connect h1{
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: normal;
+    font-family: 'Nova Square', cursive;
+    letter-spacing: 0;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.connect img{
+    width: 64px;
+    margin-top: 3rem;
+   filter: drop-shadow(2px 4px 3px rgba(0,0,0,0.3));
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 5rem;
+}
+.social{
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    margin-left: 28%;
+}
+.social img{
+    margin: 0;
+    margin-left: 7px;
+    width: 35px;
+    filter: drop-shadow(2px 4px 3px rgba(0,0,0,0.3));
+}
+.hrtag4{
+    color: white;
+    width: 80%;
+    border: .5px solid white;
+    margin-left: 0;
+    margin: 3rem auto 3rem 0;
+}
+form input, form textarea{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 70%;
+    outline: 0;
+    font-size: 1.2rem;
+}
+label{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Nova Square', cursive;
+}
+input,textarea{
+    color: white;
+}
+form button{
+    border: 3px solid rgb(231, 88, 224);
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    padding: .7rem 2rem;
+    width: 300px;
+    border-radius: 30px;
+    float: right;
+    transition: background .3s cubic-bezier(.785,.135,.15,.86);
+}
+form button:hover{
+    background: rgb(231, 88, 224);
+}
+.social img:hover{
+    width: 33px;
+}
+form div{
+    position: relative;
+    margin-top: 1.5rem;
+}
+form div label{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    transition: .35s;
+    pointer-events: none;
+}
+footer form input:focus ~ label, textarea:focus ~ label, .inputClass{
+    top: -23px;
+    color: rgb(231, 88, 224);
+    font-size: 1rem;
+}

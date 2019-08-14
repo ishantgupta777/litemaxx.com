@@ -42,7 +42,7 @@ body{
     width: 100vw;
     height: 100vh;
     z-index: 1;
-    background-color: rgba(0,0,0,.68);
+    background-color: rgba(0,0,0,1);
     position: absolute;
     top: 0;
     left: 0;
@@ -56,6 +56,8 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    width: 60%;
+    margin: auto;
 }
 .main-text h1{ 
     font-size: 5rem;
@@ -76,9 +78,11 @@ body{
 }
 .main-text p{
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: normal;
     letter-spacing: 1.5px;
     font-family: sans-serif;
+    width: 100%;
+    margin: auto;
 }
 .main-text input, .quote-section input{
     background: rgb(37, 143, 241);
@@ -95,4 +99,55 @@ body{
 }
 .main-text input:hover , .quote-section input:hover{
     background-color: rgb(17, 105, 187);
+}
+@media (max-width:1300px){
+    html{
+        font-size: 12px;
+    }
+    .main-text input{
+        font-size: 1rem;
+        padding: .8rem 3rem;
+    }
+}
+@media (max-width:1048px){
+    html{
+        font-size: 11px;
+    }
+    .main-text input{
+        font-size: 1rem;
+        padding: .8rem 3rem;
+    }
+}
+@media (max-width:970px){
+    html{
+        font-size: 11px;
+    }
+    .main-text h1{
+        font-size: 4rem;
+    }
+    .main-text h2{
+        font-size: 2.3rem;
+    }
+    .main-text p{
+        font-size: 1.1rem;
+    }
+    .main-text input{
+        font-size: 1rem;
+        padding: .8rem 2rem;
+    }
+}
+@media (max-width:770px){
+    html{
+        font-size: 10px;
+    }
+}
+@media (max-width:700px){
+    .section__subtitle{
+        width: 70%;
+    }
+}
+@media (max-width:500px){
+    .hr{
+        width: 200px;
+    }
 }

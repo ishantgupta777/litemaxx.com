@@ -173,6 +173,22 @@ button{
    font-weight: normal;
    outline: 0;
 }
+
+@media (max-width:1300px){
+    .swiper-button-next{
+        padding-top: 1.7rem;
+    }
+}
+@media (max-width:1108px){
+    .swiper-button-next{
+        padding-top: 2rem;
+    }
+}
+@media (max-width:800px){
+    .swiper-button-next{
+        padding-top: 2.3rem;
+    }
+}
 .swiper-button-prev{
    color: white;
    background: none;

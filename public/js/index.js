@@ -98,3 +98,8 @@ $('form').on('change',()=>{
         $('#message').addClass('inputClass')
     }
 })
+
+//----------------------putting main heading in next line-------------------
+if($(window).width()<700){
+    $('<br>').insertBefore('#dynamic-text');
+}

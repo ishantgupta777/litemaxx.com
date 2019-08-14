@@ -1,15 +1,18 @@
 footer.footer{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
     margin-top: 5rem;
     padding-top: 10rem;
     padding-bottom: 10rem;
     background:  rgba(7,0,255,1);
     -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 87%, 0 100%);
     clip-path: polygon(0 10%, 100% 0%, 100% 87%, 0 100%);
+    overflow: hidden;
 }
 .connect{
     margin-left: 10rem;
+    margin-bottom: 7rem;
+    margin-top: 2rem;
 }
 .connect h1{
     font-size: 7rem;
@@ -29,12 +32,16 @@ form{
     display: grid;
     grid-template-columns: 1fr;
     padding: 0 5rem;
+    margin: auto;
+    margin-left: 65px;
+}
+.social-div{
+    width: 80%;
 }
 .social{
     margin: auto;
     width: 200px;
     text-align: center;
-    margin-left: 28%;
 }
 .social img{
     margin: 0;
@@ -53,7 +60,7 @@ form input, form textarea{
     background: transparent;
     border: none;
     border-bottom: 1px solid white;
-    width: 70%;
+    width: 90%;
     outline: 0;
     font-size: 1.2rem;
 }
@@ -68,9 +75,10 @@ input,textarea{
 form button{
     border: 3px solid rgb(231, 88, 224);
     margin-top: 3rem;
+    margin-left: 1rem;
     font-size: 1.2rem;
     padding: .7rem 2rem;
-    width: 300px;
+    width: 90%;
     border-radius: 30px;
     float: right;
     transition: background .3s cubic-bezier(.785,.135,.15,.86);
@@ -83,7 +91,7 @@ form button:hover{
 }
 form div{
     position: relative;
-    margin-top: 1.5rem;
+    margin: 1.5rem ;
 }
 form div label{
     position: absolute;
@@ -96,4 +104,61 @@ footer form input:focus ~ label, textarea:focus ~ label, .inputClass{
     top: -23px;
     color: rgb(231, 88, 224);
     font-size: 1rem;
+}
+.contact{
+    margin-bottom: 7rem;
+}
+@media (max-width:1200px){
+    footer form input:focus ~ label, textarea:focus ~ label, .inputClass{
+        top: -18px;
+    }
+ }
+@media (max-width:1100px){
+   form button{
+       width: 70%;
+   }
+   .social img{
+    width: 30px;
+    }
+    footer form input:focus ~ label, textarea:focus ~ label, .inputClass{
+        top: -16px;
+    }
+}
+@media (max-width:900px){
+    .connect h1{
+        font-size: 5.5rem;
+    }
+    .social img{
+        width: 25px;
+    }
+    footer form input:focus ~ label, textarea:focus ~ label, .inputClass{
+        top: -16px;
+    }
+}
+@media (max-width:500px){
+   form{
+    margin: auto;
+}
+.connect{
+    margin-right: 8rem;
+}
+}
+@media (max-width:450px){
+    form{
+        margin-right: 2.5rem;
+ }
+ }
+ @media (max-width:400px){
+    form{
+        width: 70%;
+        margin: auto;
+        padding-left: 20px;
+        margin-left: 40px; 
+ }
+ .connect{
+     margin-left: 5rem;
+ }
+ .hr{
+     width: 150px;
+ }
 }

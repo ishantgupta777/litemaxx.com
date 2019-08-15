@@ -108,6 +108,18 @@ footer form input:focus ~ label, textarea:focus ~ label, .inputClass{
 .contact{
     margin-bottom: 7rem;
 }
+.centerFlex{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+.thankyou{
+    font-family: 'Nova Square', cursive;
+    font-size: 4rem;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
 @media (max-width:1200px){
     footer form input:focus ~ label, textarea:focus ~ label, .inputClass{
         top: -18px;

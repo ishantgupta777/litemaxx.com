@@ -45,6 +45,9 @@ const User = mongoose.model('user',userSchema)
 app.get('/',(req,res)=>{
     res.sendFile(publicPath)
 })
+app.get('/faq',(req,res)=>{
+    res.sendFile(path.join(publicPath,'faq.html'))
+})
 
 app.post('/contact',(req,res)=>{
     const userMsg = new User(req.body)

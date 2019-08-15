@@ -1,0 +1,62 @@
+ .img{
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: 70vh;
+    background: url('../img/vek-labs-e8ofKlNHdsg-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-image h1{
+    font-size: 7rem;
+    font-weight: 500;
+    font-family: 'Nova Square', cursive;
+}
+.main-image p{
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-family: sans-serif;
+    width: 60%;
+    margin: 2rem auto;
+}
+.faqs{
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+    background: url('../img/peter-livesey-WEME5LOrLpE-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    filter: grayscale(40%);
+}
+.faqs h2{
+    color: var(--main-color-blue);
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+.faq{
+    color: white;
+    margin: auto;
+    width: 65%;
+    border: 1px solid #5328fe;
+    margin-top: 3rem;
+    padding: 2rem 5rem;
+    text-align: left;
+    background: #eaeaea;
+    color: black;
+}
+.faq h3{
+    color: #5328fe;
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin: 1.3rem 0 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.faq p{
+    margin: 1.5rem 0;
+    width: 90%;
+    font-size: 1.3rem;
+}

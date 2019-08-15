@@ -3,7 +3,11 @@
 @import 'prices.css';
 @import 'footer.css';
 @import 'howto.css';
+@import 'faq.css';
 
+:root{
+    --main-color-blue : #5328fe;
+}
 *{
     box-sizing: border-box;
     padding: 0;

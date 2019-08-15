@@ -101,6 +101,13 @@ body{
 .main-text input:hover , .quote-section input:hover{
     background-color: rgb(17, 105, 187);
 }
+.navbar-brand{
+    margin-left: 0;
+}
+.navbar-brand img{
+    max-height: 50px;
+    max-width: 80px;
+}
 @media (max-width:1300px){
     html{
         font-size: 12px;

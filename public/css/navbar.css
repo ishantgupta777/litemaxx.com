@@ -1,13 +1,11 @@
-.navbar-brand{
-    margin-left: 3rem;
-}
 .navbar-nav{
     margin-left: 10rem;
     font-weight: normal;
 }
 .navbar li{
-    padding: 0 .5rem;
     border-right: 1px solid white;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .navbar li:nth-last-child(1){
     border: none;
@@ -16,4 +14,17 @@
 .navbar li a{
     padding: 0;
     line-height: 1;
+}
+@media (max-width:992px){
+    .navbar li{
+        border-right: none;
+        padding-left: 1rem;
+        margin-top: 1.3rem;
+        font-weight: normal;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .navbar li:nth-last-child(1){
+       margin-bottom: 1.5rem;
+    }
 }

@@ -48,6 +48,9 @@ app.get('/',(req,res)=>{
 app.get('/faq',(req,res)=>{
     res.sendFile(path.join(publicPath,'faq.html'))
 })
+app.get('/pricing',(req,res)=>{
+    res.sendFile(path.join(publicPath,'pricing.html'))
+})
 
 app.post('/contact',(req,res)=>{
     const userMsg = new User(req.body)

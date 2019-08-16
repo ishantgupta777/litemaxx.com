@@ -4,6 +4,7 @@
 @import 'footer.css';
 @import 'howto.css';
 @import 'faq.css';
+@import 'pricing.css';
 
 :root{
     --main-color-blue : #5328fe;
@@ -21,7 +22,7 @@ body{
     width: 100vw;
     background: #070E17;
 }
-.container{
+.container:not(#container){
     max-width: 960px;
     margin: auto;
 }

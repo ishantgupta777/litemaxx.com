@@ -51,6 +51,9 @@ app.get('/faq',(req,res)=>{
 app.get('/pricing',(req,res)=>{
     res.sendFile(path.join(publicPath,'pricing.html'))
 })
+app.get('/sitemap',(req,res)=>{
+    res.sendFile(path.join(publicPath,'sitemap.xml'))
+})
 
 app.post('/contact',(req,res)=>{
     const userMsg = new User(req.body)

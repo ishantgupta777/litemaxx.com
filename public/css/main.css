@@ -6,7 +6,20 @@
 @import 'faq.css';
 @import 'pricing.css'; */
 
-
+@font-face{
+    font-family: 'Chewy', cursive;
+    src: url('https://fonts.googleapis.com/css?family=Chewy|Lato:300,400,700|Nova+Square&display=swap');
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Lato', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Chewy|Lato:300,400,700|Nova+Square&display=swap');
+    font-display: swap;
+}@font-face{
+    font-family: 'Nova Square', cursive;
+    src: url('https://fonts.googleapis.com/css?family=Chewy|Lato:300,400,700|Nova+Square&display=swap');
+    font-display: swap;
+}
 /* ----------------faq------------------------ */
 .img{
     color: white;

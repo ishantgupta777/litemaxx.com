@@ -54,6 +54,12 @@ app.get('/pricing',(req,res)=>{
 app.get('/sitemap',(req,res)=>{
     res.sendFile(path.join(publicPath,'sitemap.xml'))
 })
+app.get('/c',(req,res)=>{
+    res.redirect('https://chat.whatsapp.com/By9O5YpgER53SBKNcST0YO')
+})
+app.get('/webd',(req,res)=>{
+    res.redirect('https://chat.whatsapp.com/IJGxdDGBZFsHTEHIcL7tk4')
+})
 
 app.post('/contact',(req,res)=>{
     const userMsg = new User(req.body)
